@@ -14,7 +14,7 @@ const Trending = () => {
         <br />
         <h1 className="text-white">TRENDING MOVIES</h1>
         <Row>
-          <Col md={4} className="movieWrapper">
+          <Col md={4} className="movieWrapper" id="trending">
             <Card className="movieImage">
               <Image src={duneImage} alt="Dune image" className="images" />
               <div className="bg-dark">
@@ -40,7 +40,7 @@ const Trending = () => {
               />
               <div className="bg-dark">
                 <div className="m-2 p-1 text-white">
-                  <Card.Title className="text-center">DUNE</Card.Title>
+                  <Card.Title className="text-center">Everything</Card.Title>
                   <Card.Text className="text-left">
                     This is a wider card with supporting text below as a natural
                     lead-in to additional content.
@@ -57,7 +57,7 @@ const Trending = () => {
               <Image src={infinityImage} alt="Dune image" className="images" />
               <div className="bg-dark">
                 <div className="m-2 p-1 text-white">
-                  <Card.Title className="text-center">DUNE</Card.Title>
+                  <Card.Title className="text-center">Infinity</Card.Title>
                   <Card.Text className="text-left">
                     This is a wider card with supporting text below as a natural
                     lead-in to additional content.
@@ -74,7 +74,7 @@ const Trending = () => {
               <Image src={jokerImage} alt="Dune image" className="images" />
               <div className="bg-dark">
                 <div className="m-2 p-1 text-white">
-                  <Card.Title className="text-center">DUNE</Card.Title>
+                  <Card.Title className="text-center">Joker</Card.Title>
                   <Card.Text className="text-left">
                     This is a wider card with supporting text below as a natural
                     lead-in to additional content.
@@ -91,7 +91,7 @@ const Trending = () => {
               <Image src={lightyearImage} alt="Dune image" className="images" />
               <div className="bg-dark">
                 <div className="m-2 p-1 text-white">
-                  <Card.Title className="text-center">DUNE</Card.Title>
+                  <Card.Title className="text-center">Lightyear</Card.Title>
                   <Card.Text className="text-left">
                     This is a wider card with supporting text below as a natural
                     lead-in to additional content.
@@ -108,7 +108,7 @@ const Trending = () => {
               <Image src={morbiusImage} alt="Dune image" className="images" />
               <div className="bg-dark">
                 <div className="m-2 p-1 text-white">
-                  <Card.Title className="text-center">DUNE</Card.Title>
+                  <Card.Title className="text-center">Morbius</Card.Title>
                   <Card.Text className="text-left">
                     This is a wider card with supporting text below as a natural
                     lead-in to additional content.

@@ -12,12 +12,12 @@ const Superhero = () => {
       <Container>
         <h1 className="text-white">SUPERHERO MOVIES</h1>
         <Row>
-          <Col md={4} className="movieWrapper">
+          <Col md={4} className="movieWrapper" id="superhero">
             <Card className="movieImage">
               <Image src={antmanImage} alt="Dune image" className="images" />
               <div className="bg-dark">
                 <div className="m-2 p-1 text-white">
-                  <Card.Title className="text-center">DUNE</Card.Title>
+                  <Card.Title className="text-center">Antman</Card.Title>
                   <Card.Text className="text-left">
                     This is a wider card with supporting text below as a natural
                     lead-in to additional content.
@@ -34,7 +34,7 @@ const Superhero = () => {
               <Image src={avengerImage} alt="Dune image" className="images" />
               <div className="bg-dark">
                 <div className="m-2 p-1 text-white">
-                  <Card.Title className="text-center">DUNE</Card.Title>
+                  <Card.Title className="text-center">Avenger</Card.Title>
                   <Card.Text className="text-left">
                     This is a wider card with supporting text below as a natural
                     lead-in to additional content.
@@ -51,7 +51,7 @@ const Superhero = () => {
               <Image src={batmanImage} alt="Dune image" className="images" />
               <div className="bg-dark">
                 <div className="m-2 p-1 text-white">
-                  <Card.Title className="text-center">DUNE</Card.Title>
+                  <Card.Title className="text-center">Batman</Card.Title>
                   <Card.Text className="text-left">
                     This is a wider card with supporting text below as a natural
                     lead-in to additional content.
@@ -68,7 +68,7 @@ const Superhero = () => {
               <Image src={robinhoodImage} alt="Dune image" className="images" />
               <div className="bg-dark">
                 <div className="m-2 p-1 text-white">
-                  <Card.Title className="text-center">DUNE</Card.Title>
+                  <Card.Title className="text-center">Robinhood</Card.Title>
                   <Card.Text className="text-left">
                     This is a wider card with supporting text below as a natural
                     lead-in to additional content.
@@ -85,7 +85,7 @@ const Superhero = () => {
               <Image src={spidermanImage} alt="Dune image" className="images" />
               <div className="bg-dark">
                 <div className="m-2 p-1 text-white">
-                  <Card.Title className="text-center">DUNE</Card.Title>
+                  <Card.Title className="text-center">Spiderman</Card.Title>
                   <Card.Text className="text-left">
                     This is a wider card with supporting text below as a natural
                     lead-in to additional content.
@@ -102,7 +102,7 @@ const Superhero = () => {
               <Image src={supermanImage} alt="Dune image" className="images" />
               <div className="bg-dark">
                 <div className="m-2 p-1 text-white">
-                  <Card.Title className="text-center">DUNE</Card.Title>
+                  <Card.Title className="text-center">Superman</Card.Title>
                   <Card.Text className="text-left">
                     This is a wider card with supporting text below as a natural
                     lead-in to additional content.
